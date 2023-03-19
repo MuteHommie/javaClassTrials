@@ -1,15 +1,13 @@
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Calculator extends JFrame implements ActionListener {
 
-    // Declare the text fields and buttons
     private JTextField textField1, textField2, resultField;
     private JLabel label1, label2, resultLabel;
     private JButton addButton, subtractButton, multiplyButton, divideButton;
 
-    // Constructor for the Calculator
     public Calculator() {
         // Set up the JFrame
         setTitle("Simple Calculator");
@@ -41,13 +39,11 @@ public class Calculator extends JFrame implements ActionListener {
         divideButton = new JButton("/");
         divideButton.setBounds(190, 120, 50, 25);
 
-        // Add the action listeners to the buttons
         addButton.addActionListener(this);
         subtractButton.addActionListener(this);
         multiplyButton.addActionListener(this);
         divideButton.addActionListener(this);
 
-        // Add the components to the JFrame
         add(label1);
         add(textField1);
         add(label2);
