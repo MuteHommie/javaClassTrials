@@ -1,10 +1,9 @@
-import  javax.swing.*;
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseListener;
-import java.util.Objects;
 
 public class GUI5 extends JFrame implements ActionListener {
+    private JFrame welcome = new JFrame();
     private JLabel lblUser, lblpass;
     private JTextField txtUser = new JTextField(20);
     private JPasswordField pwdPass = new JPasswordField(20);
@@ -15,7 +14,7 @@ public class GUI5 extends JFrame implements ActionListener {
     private ButtonGroup bgpGender, bgpAge;
 
 
-    public GUI5(){
+    public GUI5() {
         super("Login frame");
         lblUser = new JLabel("Username");
         lblpass = new JLabel("Password");
@@ -39,11 +38,14 @@ public class GUI5 extends JFrame implements ActionListener {
         bgpAge.add(rbtAdult);
 
 
-
         btnlLog = new JButton("Login");
         btnReset = new JButton("Reset");
         btnExit = new JButton("Exit");
-
+        welcome.setVisible(false);
+        welcome.setSize(400, 300);
+        welcome.setLayout(null);
+        welcome.setLocationRelativeTo(null);
+        welcome.setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
         setSize(500, 400);
         setLayout(null);
@@ -83,24 +85,54 @@ public class GUI5 extends JFrame implements ActionListener {
         btnlLog.addActionListener(this);
     }
 
-
     public static void main(String[] args) {
         new GUI5();
-
     }
+
+
     @Override
     public void actionPerformed(ActionEvent e) {
-        int option = JOptionPane.showConfirmDialog(this, "Sure you want to terminate");
-        if(option == 0){
-            System.exit(0);
-        }
-        String userName = String.valueOf(txtUser);
-        String passWord = String.valueOf(pwdPass);
-        if(Objects.equals(userName, "Oscar") && Objects.equals(passWord, "123456")){
-            setVisible(false);
-        }else {
-//            System.out.printf("Wrong input");
-            JOptionPane.showMessageDialog(this, "Wrong Input");
+        if (e.getSource() == btnExit) {
+            int option = JOptionPane.showConfirmDialog(this, "Are you sure you want to exit?");
+            if (option == JOptionPane.YES_OPTION) {
+                System.exit(0);
+            }
+        } else if (e.getSource() == btnReset) {
+            txtUser.setText("");
+            pwdPass.setText("");
+            bgpGender.clearSelection();
+            bgpAge.clearSelection();
+        } else if (e.getSource() == btnlLog) {
+            String userName = txtUser.getText();
+            String passWord = new String(pwdPass.getPassword());
+            String gender = "";
+            String age = "";
+            if (rbtMale.isSelected()) {
+                gender = "Male";
+            } else if (rbtFemale.isSelected()) {
+                gender = "Female";
+            }
+
+            if (rbtChild.isSelected()) {
+                age = "Child";
+            } else if (rbtTeen.isSelected()) {
+                age = "Teen";
+            } else if (rbtYouth.isSelected()) {
+                age = "Youth";
+            } else if (rbtAdult.isSelected()) {
+                age = "Adult";
+            }
+
+            if (userName.equalsIgnoreCase("Oscar") && passWord.equals("123456")) {
+                JOptionPane.showMessageDialog(this, "Login Successful!\nUsername: " + userName
+                        + "\nPassword: " + passWord + "\nGender: " + gender + "\nAge Group: " + age);
+                setVisible(false);
+                welcome.setVisible(true);
+                welcome.setTitle("Welcome "+ userName);
+                String us = txtUser.getText();
+            } else {
+                JOptionPane.showMessageDialog(this, "Incorrect username or password");
+            }
         }
     }
 }

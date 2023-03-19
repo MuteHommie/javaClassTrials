@@ -9,18 +9,16 @@ public class Calculator extends JFrame implements ActionListener {
     private JButton addButton, subtractButton, multiplyButton, divideButton;
 
     public Calculator() {
-        // Set up the JFrame
-        setTitle("Simple Calculator");
+        setTitle("Calculator");
         setSize(300, 200);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Create the components
-        label1 = new JLabel("Number 1:");
+        label1 = new JLabel("1st Number:");
         label1.setBounds(10, 10, 80, 25);
         textField1 = new JTextField();
         textField1.setBounds(100, 10, 100, 25);
-        label2 = new JLabel("Number 2:");
+        label2 = new JLabel("2nd Number:");
         label2.setBounds(10, 40, 80, 25);
         textField2 = new JTextField();
         textField2.setBounds(100, 40, 100, 25);
@@ -75,11 +73,9 @@ public class Calculator extends JFrame implements ActionListener {
             result = num1 / num2;
         }
 
-        // Display the result
         resultField.setText(Double.toString(result));
     }
 
-    // Main method to start the program
     public static void main(String[] args) {
         new Calculator();
     }

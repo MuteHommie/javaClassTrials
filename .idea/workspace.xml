@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f32fa0a3-c830-44d5-8a55-a114f6656460" name="Changes" comment="We added more programs to the project though unrelated" />
+    <list default="true" id="f32fa0a3-c830-44d5-8a55-a114f6656460" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Arithmetics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Braille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuiTrials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShortHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTrial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaTrial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleProgram01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleProgram01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo3b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorial.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,21 +142,6 @@
       <option name="presentableId" value="Default" />
       <updated>1673945209602</updated>
     </task>
-    <task id="LOCAL-00001" summary="We added more programs to the project though unrelated">
-      <created>1679212008770</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679212008770</updated>
-    </task>
-    <task id="LOCAL-00002" summary="We added more programs to the project though unrelated">
-      <created>1679212039790</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679212039790</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,8 +157,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="We added more programs to the project though unrelated" />
-    <option name="LAST_COMMIT_MESSAGE" value="We added more programs to the project though unrelated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
