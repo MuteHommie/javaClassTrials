@@ -1,24 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f32fa0a3-c830-44d5-8a55-a114f6656460" name="Changes" comment="" />
+    <list default="true" id="f32fa0a3-c830-44d5-8a55-a114f6656460" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Arithmetics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Braille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuiTrials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShortHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTrial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaTrial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleProgram01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleProgram01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo3b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorial.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2KRlJs2SVJ5n01Fk9aooxkx3XIG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cs152.hw4" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="&gt;23" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ActionListenerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActionListenerExample" />
+      <module name="javaTrial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Circle" />
+      <module name="javaTrial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo4" />
+      <module name="javaTrial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUI6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI6" />
+      <module name="javaTrial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Student" />
+      <module name="javaTrial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GUI6" />
+        <item itemvalue="Application.ActionListenerExample" />
+        <item itemvalue="Application.Circle" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.Demo4" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +143,23 @@
       <updated>1673945209602</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,0 +1,11 @@
+Now on to the real stuff. Gadddddaaaaamn!!
+
+Gui3
+We are creating mini windows i.e. frame (awwwwh!) get tf out suss nigga!
+
+A frame is a container and you need to have a container so that you can use it from the hierachical diagram we drew.
+Jframe methods.
+1. setVisible(); - to actively show the frame or not hcnce a boolean value i.e. true or false(default)
+2. setSize(): - Use an inverted cartesian plane from the top left corner, then you set the bottom right corner
+note: When you use the close button it changes the visibility to false, but doesnt terminate the program.
+instead use the function: setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
