@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f32fa0a3-c830-44d5-8a55-a114f6656460" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arithmetics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Braille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuiTrials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShortHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frames.txt" afterDir="false" />
+    <list default="true" id="f32fa0a3-c830-44d5-8a55-a114f6656460" name="Changes" comment="We added more programs to the project though unrelated!">
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_19_2023_10_48_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_19_2023_10_48_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaTrial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaTrial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleProgram01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleProgram01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo3b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MathMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
