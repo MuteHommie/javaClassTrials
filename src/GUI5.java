@@ -129,7 +129,6 @@ public class GUI5 extends JFrame implements ActionListener {
                 setVisible(false);
                 welcome.setVisible(true);
                 welcome.setTitle("Welcome "+ userName);
-                String us = txtUser.getText();
             } else {
                 JOptionPane.showMessageDialog(this, "Incorrect username or password");
             }
